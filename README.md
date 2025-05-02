@@ -1,7 +1,22 @@
 # GNR602-Project
 This project tackles the land cover classification problem using the DeepSat SAT-4 satellite imagery dataset using SVM Model
 
-## Please note that the UI is supported on Colab, so open the code on Colab after downloading the .ipynb notebook else you might face error
+## Usage Instructions
+
+> ⚠️ **Important:** This UI is supported **only on Google Colab**.
+
+### How to Run:
+1. Open the `.ipynb` file.
+2. Click the **"Open in Colab"** link at the top of the notebook.
+3. Once opened in Colab, run **all the cells** in order.
+
+### Using the UI:
+- Navigate to the **third-to-last cell**, where the user interface is located.
+- In the UI:
+  - Select an image for analysis.
+  - Set the `stride` parameter (default is `14`).
+
+> ⏳ **Note:** The analysis may take some time—please wait patiently while the image is being processed.
 
 # 🌍 Land Cover Patch-Based Classification using SVM (OvO vs OvR)
 
