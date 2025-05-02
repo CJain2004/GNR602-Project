@@ -1,6 +1,8 @@
 # GNR602-Project
 This project tackles the land cover classification problem using the DeepSat SAT-4 satellite imagery dataset using SVM Model
 
+## Please note that the UI is supported on Colab, so open the code on Colab after downloading the .ipynb notebook else you might face error
+
 # 🌍 Land Cover Patch-Based Classification using SVM (OvO vs OvR)
 
 This project implements a patch-based image classification system to analyze land cover types from satellite or aerial imagery. It uses Support Vector Machines (SVM) with both One-vs-One (OvO) and One-vs-Rest (OvR) strategies to classify patches into four classes: **Barren Land**, **Trees**, **Grassland**, and **Other**.
@@ -41,4 +43,3 @@ You can install all dependencies using:
 ```bash
 pip install -r requirements.txt
 ```
-
