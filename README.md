@@ -1,4 +1,5 @@
 # GNR602-Project
+PRBOLEM STATEMENT: Classify a satellite image using SVM classifier with a number of classes > 2 and compare the results of one versus one and one versus rest methods.
 This project tackles the land cover classification problem using the DeepSat SAT-4 satellite imagery dataset using SVM Model
 
 ## Usage Instructions
