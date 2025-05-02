@@ -1,0 +1,15 @@
+numpy
+pandas
+matplotlib
+scikit-image
+opencv-python
+ipywidgets
+imageio
+joblib
+torch
+torchvision
+cuml-cu11  # or cuml-cu12 depending on CUDA version
+cupy-cuda117  # or cupy-cuda12x (adjust 'x' based on your CUDA toolkit)
+scikit-learn
+keras
+tensorflow  # Needed for keras backend
