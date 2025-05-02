@@ -8,32 +8,44 @@ This project tackles the land cover classification problem using the DeepSat SAT
 ## 🚀 How to Run
 
 1. Open the `.ipynb` file.
-2. Click the **"Open in Colab"** link at the top of the notebook (No need of requirements.txt file)
-3. Once opened in Colab, you have two options:
+2. Click the **"Open in Colab"** link at the top of the notebook.
+3. **Before running anything**, set up the runtime:
+   - Click on **"Runtime" > "Change runtime type"** in the Colab menu (next to the "Connect" button).
+   - From the dropdown, select **GPU** as the hardware accelerator.
+   - Preferably choose **T4 GPU** for optimal performance.
+   - Click **Save**.
+
+---
+
+## 🧠 Model Options
+
+You can either use pretrained models for a quick demo or train from scratch.
 
 ### ▶️ Option 1: Use Pretrained Models (Recommended for Quick Testing)
 
-- Download the `models.zip` file from the repository.
-- Extract it to get the two SVM model files.
+- Download the `models.zip` file from this repository.
+- Extract the archive to obtain the two SVM model files.
 - Upload these model files to your Colab session.
-- Navigate to the **third-to-last cell** in the notebook.
-- Run that cell to launch the GUI interface and start testing on images.
+- Scroll down and **navigate to the third-to-last cell** in the notebook.
+- Run that cell to launch the GUI interface and start testing on sample images.
 
 ### 🔁 Option 2: Train Models from Scratch
 
-- Simply run **all the cells** in the notebook **in order**.
-- This will retrain the models before launching the interface.
+- Simply run **all cells in order** from the top of the notebook.
+- This will handle training and setup before launching the GUI interface.
 
 ---
+
 ## 🧪 Using the UI
 
-- Scroll to the **third-to-last cell**, which contains the user interface.
+- Locate and run the **third-to-last cell**, which contains the user interface.
 - In the interface:
   - Select an image for analysis.
   - Set the `stride` parameter (default is `14`).
-- Run the cell to view the GUI output.
+- Run the cell to launch the GUI and begin analysis.
 
-> ⏳ **Note:** Image analysis may take some time. Please be patient while the processing completes.
+> ⏳ **Note:** Image processing may take a little time. Please be patient as the system analyzes the input.
+
 
 
 # 🌍 Land Cover Patch-Based Classification using SVM (OvO vs OvR)
