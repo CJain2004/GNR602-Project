@@ -8,7 +8,7 @@ This project tackles the land cover classification problem using the DeepSat SAT
 ## 🚀 How to Run
 
 1. Open the `.ipynb` file.
-2. Click the **"Open in Colab"** link at the top of the notebook.
+2. Click the **"Open in Colab"** link at the top of the notebook (No need of requirements.txt file)
 3. Once opened in Colab, you have two options:
 
 ### ▶️ Option 1: Use Pretrained Models (Recommended for Quick Testing)
@@ -25,7 +25,6 @@ This project tackles the land cover classification problem using the DeepSat SAT
 - This will retrain the models before launching the interface.
 
 ---
-
 ## 🧪 Using the UI
 
 - Scroll to the **third-to-last cell**, which contains the user interface.
