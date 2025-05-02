@@ -35,3 +35,10 @@ Install the required Python libraries before running the notebook:
 
 ```bash
 pip install numpy opencv-python scikit-image matplotlib ipywidgets joblib cupy
+```
+
+You can install all dependencies using:
+```bash
+pip install -r requirements.txt
+```
+
