@@ -15,6 +15,8 @@ This project tackles the land cover classification problem using the DeepSat SAT
 - In the UI:
   - Select an image for analysis.
   - Set the `stride` parameter (default is `14`).
+- Run the cell
+Also Note, you dont need to run ahe remaining of the cells, just load the given 2 svm models in colab and run that cell, you would see the GUI Interface as the output of the cell
 
 > ⏳ **Note:** The analysis may take some time—please wait patiently while the image is being processed.
 
