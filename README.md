@@ -4,9 +4,9 @@ This project tackles the land cover classification problem using the DeepSat SAT
 
 ## Usage Instructions
 
-> ⚠️ **Important:** This UI is supported **only on Google Colab**.
+> **Important:** This UI is supported **only on Google Colab**.
 
-## 🚀 How to Run
+##  How to Run
 
 1. Open the `.ipynb` file.
 2. Click the **"Open in Colab"** link at the top of the notebook.
@@ -18,11 +18,11 @@ This project tackles the land cover classification problem using the DeepSat SAT
 
 ---
 
-## 🧠 Model Options
+## Model Options
 
 You can either use pretrained models for a quick demo or train from scratch.
 
-### ▶️ Option 1: Use Pretrained Models (Recommended for Quick Testing)
+### Option 1: Use Pretrained Models (Recommended for Quick Testing)
 
 - Download the `models.zip` file from this repository.
 - Extract the archive to obtain the two SVM model files.
@@ -30,14 +30,14 @@ You can either use pretrained models for a quick demo or train from scratch.
 - Scroll down and **navigate to the third-to-last cell** in the notebook.
 - Run that cell to launch the GUI interface and start testing on sample images.
 
-### 🔁 Option 2: Train Models from Scratch
+### Option 2: Train Models from Scratch
 
 - Simply run **all cells in order** from the top of the notebook.
 - This will handle training and setup before launching the GUI interface.
 
 ---
 
-## 🧪 Using the UI
+## Using the UI
 
 - Locate and run the **third-to-last cell**, which contains the user interface.
 - In the interface:
@@ -49,7 +49,7 @@ You can either use pretrained models for a quick demo or train from scratch.
 
 
 
-# 🌍 Land Cover Patch-Based Classification using SVM (OvO vs OvR)
+# Land Cover Patch-Based Classification using SVM (OvO vs OvR)
 
 This project implements a patch-based image classification system to analyze land cover types from satellite or aerial imagery. It uses Support Vector Machines (SVM) with both One-vs-One (OvO) and One-vs-Rest (OvR) strategies to classify patches into four classes: **Barren Land**, **Trees**, **Grassland**, and **Other**.
 
@@ -57,7 +57,7 @@ Interactive UI is built using Jupyter Notebook widgets, and the classification o
 
 ---
 
-## 🚀 Features
+## Features
 
 - Patch-wise classification using:
   - Histogram of Oriented Gradients (HOG)
@@ -77,7 +77,7 @@ Interactive UI is built using Jupyter Notebook widgets, and the classification o
 
 ---
 
-## 🧠 Dependencies
+## Dependencies
 
 Install the required Python libraries before running the notebook:
 
